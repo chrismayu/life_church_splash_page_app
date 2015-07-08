@@ -45,9 +45,19 @@ img {
 	width: 88%;
 	
  }
+
+ .img_border {
+     //border-color: #5A5A59;
+   // border-width: 12px;  
+    padding:1px;
+      border:1px solid #021a40;
+      background-color:#fff;
+ }
+  
   
 .img_wrapper {
 	padding-top: 15px;
+   
 }
   
 body { 
