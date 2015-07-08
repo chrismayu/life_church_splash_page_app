@@ -1,1 +1,80 @@
-<h3>Welcome</h3>
+<div class="container-fluid"> <!--Container -->
+	
+	<div class="row">
+ 
+	    <div class="col-lg-8 col-lg-offset-2 ">
+	
+	<%= link_to image_tag("main_logo_final.png", :class =>"img-responsive lc_brand pull-left"   ), "http://www.lifechurchwoodstock.ca" , :class=>'pull-left'%>
+   </div> <!--col-lg-8 col-lg-offset-2 -->
+        </div>	<!--Row -->
+	
+	<div class="row">
+ 
+	    <div class="col-lg-8 col-lg-offset-2 border_div">
+		   
+			  <div class="col-lg-6">
+ 
+
+ 
+	<div class="img_wrapper">
+	<%= link_to (image_tag( "button-broadcast.gif", size: "315x81", :class =>"img-responsive"  ,
+	       
+	            mouseover: "button-broadcast-mouseover.gif")).html_safe,  root_path, :target => '_blank'  , :alt=> "Live Broadcast" %> </div>
+				
+		 
+			 
+				
+				 <div class="img_wrapper"><%= link_to (image_tag( "button-broadcast.gif", :class =>"img-responsive"  , size: "315x81")),  root_path,   :alt=> "Live Broadcast" %></div>
+							
+					 
+						 
+			 <div class="img_wrapper"><%= link_to (image_tag( "button-broadcast.gif", :class =>"img-responsive"  , size: "315x81")),   root_path,   :alt=> "Live Broadcast" %></div>
+										
+					 
+							 			
+	 <div class="img_wrapper"><%= link_to (image_tag( "banner-e-giving3.gif", :class =>"img-responsive"  , size: "315x81")),   "http://www.lifechurchwoodstock.ca/egivings/new"   , :alt=> "E-Giving" %>
+ 
+				</div>									
+				<div class="img_wrapper">
+				
+				</div>
+				
+			</div>
+				 
+				
+		  <div class="col-lg-6 text-center">
+	 
+			<div class="img_wrapper"><%= image_tag("outside_front.png", :class =>"img-responsive center-block main_building_img"   ) %></div>
+		
+		 
+			
+			 
+			 
+			<p class="text-center text_block">
+			Join us every Wednesday evening at 7:30pm
+			and Sunday Morning at 10:00am <br>
+			Morning Prayer every Tuesday at 7:45am	
+			</p>
+ 
+			</div>
+			
+	 
+		 </div> <!--col-lg-8 col-lg-offset-2 -->
+		     </div>	<!--Row -->   
+		  
+	  	<div class="row">
+ 
+	  	    <div class="col-lg-8 col-lg-offset-2 text-center">
+		  
+		 <br>
+		 
+		  <address  >
+		    <strong> ©  <%= "#{DateTime.now.strftime("%Y")}" %> Life Church International</strong>
+			547 Athlone Avenue Woodstock Ontario Canada N4S 7V8 
+		    <abbr title="Phone">P:</abbr> 1-888-857-LIFE
+		  </address>
+	 
+	   </div> <!--col-lg-8 col-lg-offset-2 -->
+           </div>	<!--Row -->   	  
+   
+</div><!--Container -->

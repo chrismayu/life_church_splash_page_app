@@ -11,9 +11,22 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-gem 'bootstrap-sass'
+ 
 gem 'figaro', '>= 1.0.0.rc1'
 gem 'thin'
+gem "heroku" 
+
+
+gem "font-awesome-rails"
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-angular'
+  gem 'rails-assets-leaflet'
+  gem 'rails-assets-bootstrap-sweetalert'
+  gem 'rails-assets-font-awsome'
+end
+
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil

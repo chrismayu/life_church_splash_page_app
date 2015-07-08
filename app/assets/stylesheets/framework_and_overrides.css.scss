@@ -1,6 +1,12 @@
 // import the CSS framework
-@import "bootstrap-sprockets";
+//@import "bootstrap-sprockets";
 @import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css');
+ 
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');  
+@import url('http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic');  
+ 
 
 // make all images responsive by default
 img {
@@ -12,30 +18,48 @@ img {
   font-size: inherit;
   }
 
-// THESE ARE EXAMPLES YOU CAN MODIFY
-// create your own classes
-// to make views framework-neutral
-.column {
-  @extend .col-md-6;
-  @extend .text-center;
-  }
-.form {
-  @extend .col-md-6;
-  }
-.form-centered {
-  @extend .col-md-6;
-  @extend .text-center;
-  }
-.submit {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
-  }
+ 
+ 
+ 
+.border_div { 
+	background-color:rgba(255,255,255,0.9);
+    border-color: #5A5A59;
+	border-width: 1.5px;  
+	border-style: solid;
+	height: 100%;
+    //margin-top: 51px; // accommodate the navbar
+    }
+.main_building_img{
+	height: 100%;
+	width: 100%;
+}
+.lc_brand{
+	height: 35%;
+	width: 35%;
+	
+}
+  
+ .text_block{
+	 padding-top: 20px;
+	 padding-left: 20px;
+	width: 88%;
+	
+ }
+  
+.img_wrapper {
+	padding-top: 15px;
+}
+  
+body { 
+	color: #5A5A59;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+   
+} 
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background-color: #fff;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
